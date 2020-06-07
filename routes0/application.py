@@ -9,3 +9,6 @@ def index():
 @app.route("/david")
 def david():
     return "Hello, David!"
+
+if __name__=="__main__":
+    app.run()

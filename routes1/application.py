@@ -8,4 +8,8 @@ def index():
 
 @app.route("/<string:name>")
 def hello(name):
-    return "Hello, {}!".format(name)
+    name = name.capitalize()
+    return f"hello, {name}!"
+
+if __name__=="__main__":
+    app.run()

@@ -6,3 +6,6 @@ app = Flask(__name__)
 def index():
     names = ["Alice", "Bob", "Charlie"]
     return render_template("index.html", names=names)
+
+if __name__=="__main__":
+    app.run()

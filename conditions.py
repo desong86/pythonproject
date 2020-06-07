@@ -6,3 +6,6 @@ elif x < 0:
     print("x is negative")
 else:
     print("x is 0")
+
+if __name__ =="__main":
+    main()
